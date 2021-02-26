@@ -1,0 +1,43 @@
+header{
+    background-color: #61249d;
+}
+a{
+    display: inline;
+    position: absolute, bottom;
+    margin-right: 5%;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    font-size: 25px;
+}
+.links{
+    font-family: sans-serif;
+    margin-left: 60%;
+    font-size: 20px;
+}
+.logo{
+    position: relative;
+}
+.main > img{
+    display: block;
+    margin-top: 1.5%;
+    margin-bottom: 1.1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: white;
+    background-color: #61249d;
+    text-align: center;
+    font-family: sans-serif;
+}
+h2{
+    color: white;
+    background-color: #61249d;
+    text-align: center;
+    font-family: sans-serif;
