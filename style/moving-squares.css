@@ -1,0 +1,43 @@
+#container{
+    border: 2px Black solid;
+    height: 450px;
+    width: 800px;
+    text-align: center;
+    margin:auto;
+    transition: all 3s;
+}
+
+.OddSquares{
+    border: 50px Black;
+    height: 50px;
+    width: 50px;
+    margin: 4px auto;
+    line-height: 50px;
+    background-color: purple;
+    color: white;
+    transition: all 4s;
+}
+
+.EvenSquares{
+    border: 5px Black;
+    height: 50px;
+    width: 50px;
+    margin: 4px auto;
+    line-height: 50px;
+    background-color: hotpink;
+    color: White;
+    transition: all 4s;
+}
+
+#container:hover .OddSquares{
+    transform: translateX(250px) rotate(-1080deg) scale(0.75);
+}
+
+#container:hover .EvenSquares{
+    transform: translateX(-250px) rotate(1080deg) scale(2);
+}
+
+#container:hover {
+    border-radius: 25px;
+    height: 480px;
+}
