@@ -1,0 +1,109 @@
+#container {
+    display: grid;
+    width: 300px;
+    height: auto;
+    max-height: 450px;
+    margin: auto;
+    padding: 10px;
+    grid-gap: 5px;
+    grid-template-areas: 
+        'result result result result'
+        'addition subtraction multiplication division'
+        'num7 num8 num9 equal'
+        'num4 num5 num6 equal'
+        'num1 num2 num3 equal'
+        'clear clear num0 equal';
+    background-color: purple;
+}
+
+.key {
+    border-radius: 3px;
+    height: 50px;
+    background-color: white;
+    font-size: 24px;
+    line-height: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#display {
+    height: 45px;
+    line-height: 45px;
+    text-align: right;
+    padding: 5px;
+    font-size: 24px;
+    grid-area: result;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.plus {
+    grid-area: addition;
+}
+
+.minus {
+    grid-area: subtraction;
+}
+
+.mulitply {
+    grid-area: multiplication;
+}
+
+.divide {
+    grid-area: division;
+}
+
+.clear-key {
+    grid-area: clear;
+}
+
+.equal {
+    grid-area: equal;
+    border-radius: 3px;
+    height: auto;
+    background-color: white;
+    font-size: 24px;
+    line-height: 215px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.num0 {
+    grid-area: num0;
+}
+
+.num1 {
+    grid-area: num1;
+}
+
+.num2 {
+    grid-area: num2;
+}
+
+.num3 {
+    grid-area: num3;
+}
+
+.num4 {
+    grid-area: num4;
+}
+
+.num5 {
+    grid-area: num5;
+}
+
+.num6 {
+    grid-area: num6;
+}
+
+.num7 {
+    grid-area: num7;
+}
+
+.num8 {
+    grid-area: num8;
+}
+
+.num9 {
+    grid-area: num9;
+}

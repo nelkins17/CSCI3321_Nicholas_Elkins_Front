@@ -1,0 +1,33 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/calculator.css">
+    <script src="../scripts/calculator.js"></script>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="display"></div>
+        <div class="key plus" onclick="updateDisplay('+')">+</div>
+        <div class="key minus" onclick="updateDisplay('-')">-</div>
+        <div class="key mulitply" onclick="updateDisplay('*')">*</div>
+        <div class="key divide" onclick="updateDisplay('/')">/</div>
+        <div class="key num7" onclick="updateDisplay('7')">7</div>
+        <div class="key num8" onclick="updateDisplay('8')">8</div>
+        <div class="key num9" onclick="updateDisplay('9')">9</div>
+        <div class="equal" onclick="solve()">=</div>
+        <div class="key num4" onclick="updateDisplay('4')">4</div>
+        <div class="key num5" onclick="updateDisplay('5')">5</div>
+        <div class="key num6" onclick="updateDisplay('6')">6</div>
+        <div class="key num1" onclick="updateDisplay('1')">1</div>
+        <div class="key num2" onclick="updateDisplay('2')">2</div>
+        <div class="key num3" onclick="updateDisplay('3')">3</div>
+        <div class="key clear-key" onclick="clearDisplay()">AC</div>
+        <div class="key num0" onclick="updateDisplay('0')">0</div>
+    </div>
+</body>
+</html>
