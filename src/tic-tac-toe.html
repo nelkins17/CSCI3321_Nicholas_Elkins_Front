@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/tic-tac-toe.css"> 
+    <script src="/scripts/tic-tac-toe.js"></script>
+    <title>My Tic Tac Toe Game</title>
+</head>
+<body>
+    <h1 class="gameinfo">Tic-Tac-Toe</h1>
+    <h2 class="gameinfo gamerules">Game Rules</h2>
+    <div class="gameinfo">
+            <li>Player 1 is "X". Player 2 is "O". The two players take turns placing their marks(X or O) in empty sqaures.</li>
+            <li>The first player to get three marks in a row either in horizontal, vertical, or diagonal way.</li>
+            <li>If all sqaures are filled and neither player has three in a row, it's a tie.</li>
+            <p></p>
+    </div>
+
+    <div id="gameboard">
+        <div id="squares" onclick="placeMarker(spot1)"></div>
+        <div id="squares" onclick="placeMarker(spot2)"></div>
+        <div id="squares" onclick="placeMarker(spot3)"></div>
+        <div id="squares" onclick="placeMarker(spot4)"></div>
+        <div id="squares" onclick="placeMarker(spot5)"></div>
+        <div id="squares" onclick="placeMarker(spot6)"></div>
+        <div id="squares" onclick="placeMarker(spot7)"></div>
+        <div id="squares" onclick="placeMarker(spot8)"></div>
+        <div id="squares" onclick="placeMarker(spot9)"></div>
+    </div>
+    
+    <div class="gamestatus"></div>
+</body>
+</html>

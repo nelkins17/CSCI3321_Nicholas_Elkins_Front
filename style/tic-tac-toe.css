@@ -1,0 +1,70 @@
+#gameboard{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    background-color: gold;
+    margin: auto;
+
+    grid-template-areas: 
+        'sqaure1 square2 sqaure3'
+        'sqaure4 square5 sqaure6'
+        'sqaure7 square8 sqaure9';
+    text-align: center;
+}
+
+#squares{
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 70px;
+    border: 1px solid white;
+}
+
+.spot1{
+    grid-area: square1;
+}
+
+.spot2{
+    grid-area: square2;
+}
+
+.spot3{
+    grid-area: square3;
+}
+
+.spot4{
+    grid-area: square4;
+}
+
+.spot5{
+    grid-area: square5;
+}
+
+.spot6{
+    grid-area: square6;
+}
+
+.spot7{
+    grid-area: square7;
+}
+
+.spot8{
+    grid-area: square8;
+}
+
+.spot9{
+    grid-area: square9;
+}
+
+.gameinfo{
+    text-align: center;
+}
+
+.gamerules{
+    text-decoration: underline;
+}
+
+.gamestatus{
+    font-size: 15px;
+    text-align: center;
+}
